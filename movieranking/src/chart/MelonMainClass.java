@@ -23,7 +23,7 @@ public class MelonMainClass {
 		Elements elem = doc.select("tr#lst50.lst50");
 				
 				for(Element e: elem.select("div")) {
-					if (e.className().equals("wrap_song_info")) {
+					if (e.className().equals("ellipsis rank01")) {
 						System.out.println(e.text());
 						//continue;
 					}
